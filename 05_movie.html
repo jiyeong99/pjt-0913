@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>위대한 쇼생크</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./movi_recom.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="./img/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./img//apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./img//apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./img//apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./img//apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./img//apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./img//apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./img//apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./img//apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./img//android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img//favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./img//favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+      </head>
+</html>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" alt="Logo" width="70" height="50" class="d-inline-block align-text-top">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./03_community.html">Community</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                      </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-lg-2 col-sm-12 d-flex flex-column justify-content-between">
+                    <ul class="list-group mt-0 mb-5 position-sticky top-50 start-1 ">
+                        <li class="list-group-item"><a class="text-decoration-none fw-normal text-black" href="#movie">영화</a></li>
+                        <li class="list-group-item"><a class="text-decoration-none fw-normal text-black" href="#caster">감독/출연</a></li>
+                        <li class="list-group-item"><a class="text-decoration-none fw-normal text-black" href="#summary">Summary</a></li>
+                        <li class="list-group-item"><a class="text-decoration-none fw-normal text-black" href="#vidio">관련 동영상</a></li>
+                        <li class="list-group-item"><a class="text-decoration-none fw-normal text-black" href="#review">review</a></li>
+                    </ul>
+                </div>
+                <div class="d-lg-block col-lg-10">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <img class="img-fluid" src="./img/movie1.jpg" alt="쇼생크탈출이미지">
+                            </div>
+                            <div class="col-6 px-3">
+                                <a name="movie"><h3 class="fw-bold">쇼생크 탈출</h3></a>
+                                <span>The Shawshank Redemption, 1994</span>
+                                <div class="my-3">
+                                    <dl>
+                                        <dt style="float: left; margin-right: 2rem;" class="text-secondary">개봉</dt>
+                                        <dd style="" class="fw-semibold">1995.02.04</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt style="float: left; margin-right: 1rem;" class="text-secondary">재개봉</dt>
+                                        <dd style="" class="fw-semibold">2016.02.24</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt style="float: left;margin-right: 2rem;" class="text-secondary">장르</dt>
+                                        <dd style="" class="fw-semibold">드라마</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt style="float: left;margin-right: 2rem;" class="text-secondary">국가</dt>
+                                        <dd style="" class="fw-semibold">미국</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt style="float: left;margin-right: 2rem;" class="text-secondary">등급</dt>
+                                        <dd style="" class="fw-semibold">러닝타임</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt style="float: left;margin-right: 2rem;" class="text-secondary">평점</dt>
+                                        <dd style="" class="fw-semibold">9.6⭐</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt style="float: left;margin-right: 2rem;" class="text-secondary">누적관객</dt>
+                                        <dd style="" class="fw-semibold">11.413명</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <hr>
+                        <a name="caster"><h3 class="fw-bold mb-3">감독/출연</h3></a>
+                        <div class="d-flex flex-wrap">
+                            <div class="d-flex col-sm-4 col-lg-12 my-2">
+                            <img src="./img/director.jpg" alt="director" style="width: 75px;height: 75px;" class="rounded-circle">
+                            <div class="mt-3 mx-3 flex-fill">
+                                <p><span class="fw-semibold">프랭크 다라본트</span><br><span class="text-secondary">감독</span></p>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-4 col-lg-12 my-2">
+                            <img src="./img/team-robins.jpg" style="width: 75px;height: 75px;" class="rounded-circle">
+                            <div class="mt-3 mx-3 flex-fill">
+                                <p><span class="fw-semibold">팀 로빈스</span><br><span class="text-secondary">주연</span></p>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-4 col-lg-12 my-2">
+                            <img src="./img/morgan-priman.jpg" style="width: 75px;height: 75px;" class="rounded-circle">
+                            <div class="mt-3 mx-3 flex-fill">
+                                <p><span class="fw-semibold">모건프리먼</span><br><span class="text-secondary">주연</span></p>
+                        </div>
+                    </div>
+                        <div class="d-flex col-sm-4 col-lg-12 my-2">
+                            <img src="./img/bob-gunton.jpg" style="width: 75px;height: 75px;" class="rounded-circle">
+                            <div class="mt-3 mx-3 flex-fill">
+                                <p><span class="fw-semibold">밥 건튼</span><br><span class="text-secondary">주연</span></p>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-4 col-lg-12 my-2">
+                            <img src="./img/william-sadlor.jpg" style="width: 75px;height: 75px;" class="rounded-circle">
+                            <div class="mt-3 mx-3 flex-fill">
+                                <p><span class="fw-semibold">윌리엄 새들러</span><br><span class="text-secondary">주연</span></p>
+                            </div>
+                        </div>
+                        <div class="d-flex col-sm-4 col-lg-12 my-2">
+                            <img src="./img/clancy-brown.jpg" style="width: 75px;height: 75px;" class="rounded-circle">
+                            <div class="mt-3 mx-3 flex-fill">
+                                <p><span class="fw-semibold">클랜시 브라운</span><br><span class="text-secondary">주연</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="summary" class="my-5">
+                    <hr>
+                    <a name="summary"><h3 class="fw-bold mb-3"> Summary </h3></a>
+                    <p class="fw-semibold">두려움은 너를 죄수로 가두고 <br>희망은 너를 자유롭게 하리라</p>
+                    <p>촉망 받던 은행 부지점장 ‘앤디(팀 로빈슨 分)’는 아내와 그 애인을 살해한 혐의로 종신형을 받고 쇼생크 교도소에 수감된다. 강력범들이 수감된 이곳에서 재소자들은 짐승 취급 당하고, 혹여 간수 눈에 잘못 보였다가는 개죽음 당하기 십상이다. 처음엔 적응 못하던 ‘앤디’는 교도소 내 모든 물건을 구해주는 ‘레드(모건 프리먼 分)’와 친해지며 교도소 생활에 적응하려 하지만, 악질 재소자에게 걸려 강간까지 당한다.
+                    </p>
+                    <p>그러던 어느 날, 간수장의 세금 면제를 도와주며 간수들의 비공식 회계사로 일하게 되고, 마침내는 소장의 검은 돈까지 관리해주게 된다. 덕분에 교도소 내 도서관을 열 수 있게 되었을 무렵, 신참내기 ‘토미(길 벨로우스 分)’로부터 ‘앤디’의 무죄를 입증할 기회를 얻지만, 노튼 소장은 ‘앤디’를 독방에 가두고 ‘토미’를 무참히 죽여버리는데...
+                    </p>
+                </div>
+                <div id="video">
+                    <hr>
+                    <a name="vidio"><p class="fw-semibold fs-4">관련 동영상</p></a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/v7vtswbmJ0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div id="star-rating">
+                    <div class="mb-3 mt-3">
+                        <hr>
+                        <a name="review"><label for="exampleFormControlInput1" class="form-label fw-semibold fs-4">한줄평</label></a>
+                        <br>
+                        <div class="mb-2 d-lg-inline-block">
+                            <label for="rate1" class="fs-5" style="color: transparent; text-shadow: 0 0 0 #f0f0f0;">⭐</label><input type="radio" class="d-none" name="rating" value="1" id="rate1">
+                            <label for="rate2" class="fs-5" style="color: transparent; text-shadow: 0 0 0 #f0f0f0;">⭐</label><input type="radio" class="d-none" name="rating" value="2" id="rate2">
+                            <label for="rate3" class="fs-5" style="color: transparent; text-shadow: 0 0 0 #f0f0f0;">⭐</label><input type="radio" class="d-none" name="rating" value="3" id="rate3">
+                            <label for="rate4" class="fs-5" style="color: transparent; text-shadow: 0 0 0 #f0f0f0;">⭐</label><input type="radio" class="d-none" name="rating" value="4" id="rate4">
+                            <label for="rate5" class="fs-5" style="color: transparent; text-shadow: 0 0 0 #f0f0f0;">⭐</label><input type="radio" class="d-none" name="rating" value="5" id="rate5">
+                        </div>
+                        <div class="row">
+                            <div class="col-9">
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="한줄평을 작성해주세요.">
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class="btn btn-dark">Submit</button>
+                            </div>
+                            <div class="col-12 mt-3">
+                                <p class="fw-semibold float-start me-3 mb-0">christmascactus</p><p class="mb-2">⭐⭐⭐⭐⭐ <span class="fw-semibold">10</span></p>
+                                <div class="float-start m-0">
+                                    <p>이 영화 때문에 내가 평가한 다른 영화들의 평점을 하나씩 내려야만 하는 참사가 일어났다</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p class="fw-semibold float-start me-3 mb-0">찐찐</p><p class="mb-2">⭐⭐⭐⭐⭐ <span class="fw-semibold">10</span></p>
+                                <div class="float-start m-0">
+                                    <p>Though hope is frail, it's hard to kill</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quotes">
+                    <div>
+                        <hr>
+                        <label for="exampleFormControlInput1" class="form-label fw-semibold">명대사</label>
+                    </div>
+                    <div class="row">
+                        <div class="col-9">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="인상깊었던 명대사를 작성해주세요.">
+                        </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-dark">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <p class="text-center">Web-bootstrap PJT, by KimJiyeong, KimSubin</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+</body>
